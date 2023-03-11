@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">=1.1.0" 
+  required_version = ">=1.1.0"
 
   required_providers {
     aws = {
@@ -15,3 +15,8 @@ provider "aws" {
   #profile = "profile_name"
 }
 
+# resource "<provider>_<resource_type>" "name" {
+#   config options
+#   key = "value"
+#   key2 = "another value"
+# }
